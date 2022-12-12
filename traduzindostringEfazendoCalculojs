@@ -1,0 +1,47 @@
+ /**
+function textp(texto , resultado) {
+ texto = "+,+,+,-,-s";
+let array = texto.split(",")
+
+let cal = 0
+ for (let x in array) {
+   
+    if (array[x] == '+') {
+     let posi = array[x] = 1
+     cal = cal + posi
+    
+} else {
+  array[x]
+}
+
+  
+}
+
+console.log(textp())
+
+  */
+function texto( ) { 
+  texto = "+,+,+,-,-";
+  let array = texto.split(",")
+
+   
+  let cal = 0
+   for (let x in array) {
+     
+      if (array[x] == '+') {
+       let posi = array[x] = 1
+       cal = cal + posi
+      
+  } else {
+    let posi = array[x] = 1
+    cal = cal - posi
+  }
+
+}
+
+return cal
+ 
+}
+
+
+console.log(textp())
